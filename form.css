@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: linear-gradient(to right , rgb(49, 51, 138), rgb(0, 2, 92), rgb(0, 30, 161));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.logo img{
+        display: inline-block;
+        height: 44px;
+        margin-right: 22px;
+ }
+nav{
+    background-image: linear-gradient(rgb(0, 10, 143), rgb(6, 0, 61));
+    display:flex;
+    width: 100%;
+    height: 64px;
+    padding-top: 8px;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    z-index: +1;
+}
+ul li{
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+li:hover{
+    color: rgb(214, 1, 1);
+}
+.search{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    padding: 8px;
+
+}
+
+#search{
+    background-color: whitesmoke;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: center;
+}
+#btn{
+    color: rgb(255, 0, 0);
+    height: 28px;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form-container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 72px;
+    /* background-color: rgb(125, 125, 228); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-image: linear-gradient( rgb(5, 2, 54), rgb(5, 41, 200));
+    height: 36px;
+    text-align: center;
+    color: white;
+    padding-top: 16px;
+    margin-top: 32px;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(248, 247, 247);
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+.input{
+    margin: 22px;
+    display: inline;
+    padding: 10px;
+    width: 369px;
+    text-align: center;
+    border: 4px solid rgb(255, 187, 0);
+}
+.form{
+    display: grid;
+    justify-items: center;
+}
+#teams{
+    width: 399px;
+}
+option{
+    background-color: white;
+}
