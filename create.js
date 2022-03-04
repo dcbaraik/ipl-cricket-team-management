@@ -32,7 +32,7 @@ submit.addEventListener("click",()=>{
     itemsJsonArray.forEach(element => {
         str = str + `<div class="team" onclick="document.location='/teams/csk/team-details.html'">
         <div class="team-logo">
-            <img src="teams/csk/logo/CSKroundbig.png" alt="channai super king">
+            <img src="logo/CSKroundbig.png" alt="channai super king">
         </div>
         <div class="team-name">
             <h2>${element[0]}</h2>
